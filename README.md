@@ -57,3 +57,6 @@ test "PoolAllocator" {
 Contributions welcome. I'll check back on this repo at least once per month. Currently targets Zig 0.10.
 
 This works and does everything I need it to. It might be nice to have a better strategy for handling contention if you were only going to re-use each object a few times in a highly concurrent environment (all new allocations contend over a per-pool lock, so when not re-using objects many times you would expect highly concurrent (somewhere north of 1k-100k CPU cores) use to spend most of the time contending over those new allocations rather than reaping the benefits of object re-use).
+
+## Credit
+Inspired by [Felix](https://zig.news/xq/cool-zig-patterns-gotta-alloc-fast-23h), and modified to support multiple object types, handle dynamic alignment, and be thread-safe.
