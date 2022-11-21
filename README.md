@@ -18,7 +18,8 @@ This allocator is ideally suited for creating/destroying the same sort of object
 
 ## Installation
 
-Choose your favorite method for vendoring this code into your repository. I like [git-subrepo](https://github.com/ingydotnet/git-subrepo), I've heard a rumor that there exist people who like git submodules, copy-paste is always a winner, I've been meaning to try out [zigmod](https://github.com/nektro/zigmod), and whenever the official package manager is up we'll be there too.
+Choose your favorite method for vendoring this code into your repository. I'm using [zigmod](https://github.com/nektro/zigmod) to vendor this into [byol](https://github.com/hmusgrave/byol), and it's pretty painless. I also generally like [git-subrepo](https://github.com/ingydotnet/git-subrepo), copy-paste is always a winner, and whenever the official package manager is up we'll be there too.
+
 
 ## Examples
 
