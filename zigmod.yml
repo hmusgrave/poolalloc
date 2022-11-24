@@ -1,6 +1,6 @@
 id: xusmnabz94zj5kamymtpwfoj4k6kzg810dpqefq77mq9s0z4
 name: poolalloc
-main: src/poolalloc.zig
+main: src/main.zig
 license: AGPL-3.0
 description: arena allocator with object re-use
 dependencies:
